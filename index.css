@@ -1,0 +1,174 @@
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url(CursedTimerUlil-Aznm.ttf);
+}  
+* {
+    /* This style below will be inherited */
+    font-family: 'Verdana', 'Cursed Timer ULiL'; 
+    text-align: center;
+  }
+  body{
+    background-color: rgba(27, 36, 74, 1);
+    text-align: center;
+  }
+  h1 {
+    border: 2px solid red;
+    color: white;
+    font-size: 2.4rem;
+    margin: 0rem;
+    margin-top: 1.5rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    width: 100%;
+
+  }
+  #containerUpper,
+  #containerLower{
+    border: 2px solid pink;
+    margin: 0rem;
+    margin-left: 10rem;
+    margin-right: 2rem;
+    display: grid;
+    width: 70rem;
+    height: 25.5rem;
+    grid-template-columns: 50% 50%;
+  }
+  #cage1,
+  #cage2,
+  #cage3,
+  #cage4 {
+    border: 4px solid lightblue;
+    margin: 0.5rem;
+    height: 24rem;
+  }
+  #cage1Name,
+  #cage2Name,
+  #cage3Name,
+  #cage4Name {
+    margin: 0rem;
+    margin-top: 0.4rem;
+    font-size: 1.5rem;
+    font-style: bold;
+    color: white;
+  }
+  #frame1,
+  #frame2 {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    border: 2px solid rgb(255, 0, 0);
+    height: 80%;
+  }
+  #frame3,
+  #frame4 {
+    margin: 0rem;
+    margin-left: 8rem;
+    height: 80%;
+    width: 50%;
+    border: 2px solid rgb(255, 0, 0);
+  }
+  #board1,
+  #board2,
+  #board3,
+  #board4,
+  #board5,
+  #board6 {
+    margin: 0.2rem;
+    border: 2px solid pink;
+  }
+  #board5,
+  #board6 {
+    margin: 0.2rem;
+    border: 2px solid rgb(112, 172, 39);
+  }
+  #cat1,
+  #cat2,
+  #cat3,
+  #cat4,
+  #cat5,
+  #cat6 {
+    position: relative;
+    border: 2px solid white;
+    margin: 0.2rem;
+    height: 5rem;
+    width: 5rem;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 1.5rem;  
+  }
+  #digitalScreen1,
+  #digitalScreen2,
+  #digitalScreen3,
+  #digitalScreen4,
+  #digitalScreen5,
+  #digitalScreen6 {
+    border: 2px solid white;
+    background-color: black;
+  }
+  #pointScreen1,
+  #pointScreen2,
+  #pointScreen3,
+  #pointScreen4,
+  #pointScreen5,
+  #pointScreen6 {
+    margin: 0rem;
+    margin-top: 0.3rem;
+    color: rgba(249, 79, 109, 1);
+    font-family: Cursed Timer ULiL;
+    font-size: 3rem;
+    background-color: 2px solid white;
+  }
+  #btnsUpperBander1,
+  #btnsUpperBander2,
+  #btnsUpperBander3,
+  #btnsUpperBander4,
+  #btnsUpperBander5,
+  #btnsUpperBander6 {
+    border: 2px solid rgb(133, 104, 104);
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    height: 5rem;
+  }
+  #btnsLowerBander1,
+  #btnsLowerBander2,
+  #btnsLowerBander3,
+  #btnsLowerBander4,
+  #btnsLowerBander5,
+  #btnsLowerBander6 {
+    position: relative;
+    border: 2px solid white;
+    text-align: center;
+    height: 3rem;
+  }
+
+  #screen1Plus1,
+  #screen1Plus2,
+  #screen1Plus4,
+  #screen1Clear,
+  #screen2Plus1,
+  #screen2Plus2,
+  #screen2Plus4,
+  #screen2Clear,
+  #screen3Plus2,
+  #screen3Plus1,
+  #screen3Plus4,
+  #screen3Clear,
+  #screen4Plus1,
+  #screen4Plus2,
+  #screen4Plus4,
+  #screen4Clear,
+  #screen5Plus1,
+  #screen5Plus2,
+  #screen5Plus4,
+  #screen5Clear,
+  #screen6Plus1,
+  #screen6Plus2,
+  #screen6Plus4,
+  #screen6Clear {
+    font-family: Cursed Timer ULiL; 
+    background-color: rgba(27, 36, 74, 1);
+    font-size: 2rem;
+    color: rgba(153, 170, 215, 1);
+    opacity: 1; 
+    border-color: rgba(153, 170, 215, 1);
+    border-radius: 0.2rem;
+  }
