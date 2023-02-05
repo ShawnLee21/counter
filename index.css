@@ -165,10 +165,12 @@
   #screen6Plus4,
   #screen6Clear {
     font-family: Cursed Timer ULiL; 
+    text-align: center;
     background-color: rgba(27, 36, 74, 1);
-    font-size: 2rem;
+    font-size: 25px;
     color: rgba(153, 170, 215, 1);
     opacity: 1; 
     border-color: rgba(153, 170, 215, 1);
     border-radius: 0.2rem;
+    margin: 0.2rem;
   }
